@@ -1,21 +1,21 @@
 def calcular_franja(dia, hora, minuto):
-    if dia > 5:
+    if dia > 6:
         franja = "Franja C"
     else:
         if (hora < 20) or (hora >= 23):
             franja = "Franja B"
-        else:
+        else
             franja = "Franja A"
     return franja
 
 
 def precio_comercial(franja, tiempo):
     if franja == "Franja A":
-        precio = (tiempo/60) * 10000000
+        precio = (tiempo/30) * 10000000
     elif franja == "Franja B":
-        precio = (tiempo/60) * 7000000
+        precio = (tiempo/30) * 7000000
     else:
-        precio = (tiempo/60) * 12000000
+        precio = (tiempo/30) * 12000000
     return precio
 
 
@@ -29,5 +29,3 @@ def principal():
     precio = precio_comercial(franja, tiempo)
     print("La empresa ", empresa, " debe pagar ", precio, " por su comercial en la ", franja,)
 
-
-principal()
