@@ -1,2 +1,4 @@
-print ( " hola " )
-int ( " world " )
+a=float(input("ingresa numero\n"))
+b=float(input("ingresa numero\n"))
+suma=a+b
+print(str(suma))
