@@ -1,2 +1,2 @@
 print ( " hola " )
-imprimir ( " world " )
+int ( " world " )
