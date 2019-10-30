@@ -1,4 +1,5 @@
-a=float(input("ingresa numero\n"))
-b=float(input("ingresa numero\n"))
-suma=a+b
-print(str(suma))
+a=float(input("ingresa num\n"))
+c=float(input("ingresa num\n"))
+suma=a+c
+print(str(sum))
+()
